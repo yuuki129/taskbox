@@ -12,7 +12,7 @@
         :name="'checked' + task.id"
         :id="'archiveTask-' + task.id"
       />
-      <span class="checkbox-custom" @click="archiveTask" />
+      <span class="checkbox-custom"  @click="archiveTask" />
     </label>
     <label :for="'title-' + task.id" :aria-label="task.title" class="title">
       <input

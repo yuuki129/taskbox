@@ -15,7 +15,7 @@
    },
  };
  
- const Template = (args, { argTypes }) => ({
+ const Template = (args, { argTypes }) => ({ // eslint-disable-line
   components: { PureTaskList },
   setup() {
      return { args, ...TaskStories.actionsData };
