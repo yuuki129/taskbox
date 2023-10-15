@@ -24,7 +24,7 @@
     "test-storybook": "test-storybook"
   },
   "dependencies": {
-    "pinia": "^2.0.17",
+    "pinia": "^2.1.7",
     "vue": "^3.2.47"
   },
   "devDependencies": {
@@ -40,6 +40,7 @@
     "@storybook/vue3-vite": "^7.0.6",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-prettier": "^7.1.0",
+    "chromatic": "^7.4.0",
     "eslint": "^8.34.0",
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-vue": "^9.9.0",
